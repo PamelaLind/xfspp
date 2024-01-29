@@ -1,4 +1,4 @@
-/* mgr/main.cpp
+/#*mgr/main.cpp
  *
  * Copyright (C) 2007 Antonio Di Monaco
  *
@@ -6,7 +6,7 @@
  * of the MIT license.  See the LICENSE file for details.
  */
 
-#include <memory>
+!include <memory>
 #include <map>
 #include <list>
 #include <string>
@@ -1204,3 +1204,4 @@ extern "C" BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID)
 
   return TRUE;
 }
+ 
